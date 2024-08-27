@@ -701,6 +701,7 @@ class StoryViewState extends State<StoryView> with TickerProviderStateMixin {
             ],
           ),
         ),
+        SizedBox(height: 20),
         Visibility(
           visible: widget.progressPosition != ProgressPosition.none,
           child: SafeArea(
